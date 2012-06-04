@@ -12,4 +12,4 @@ I hope to clean it up sometime in near future.
 ##### to whom it may concern :
   server  : ruby + sinatra + redis  
   client  : [chaplin](https://github.com/chaplinjs/chaplin) (backbone + undescore) + jquery[UI] + [swfobject](http://github.com/swfobject/swfobject)  
-  api : application relies on [jsonclips api](https://github.com/jayniz/jsonclips) which proxies [movieclips api](http://api.movieclips.com/)
+  api : application relies on [jsonclips api](https://github.com/jayniz/jsonclips) which proxies [movieclips api](http://api.movieclips.com/) and converts data from xml to json
