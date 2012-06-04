@@ -1,0 +1,66 @@
+.horizontal{
+    display: inline-block;
+    vertical-align: top;
+}
+html, body{
+    padding: 0px;
+    margin: 0px;
+}
+.top{}
+.content{}
+.content .save, .content .clipPlayList{
+    height: 480px;
+    width: 200px;
+    background-color: #EEEEFE;
+    overflow-y: scroll;
+}
+.content .save .dragButton{
+    background-color: #BB7777;
+}
+.content .save .saveButton{
+    background-color: #7777BB;
+    display: none;
+    cursor: pointer;
+}
+.content .save .result, .content .clipPlayList .playListClip{
+    cursor: pointer;
+    text-align: center;
+}
+.content .save .result:hover, .content .clipPlayList .playListClip:hover{
+    background-color: #00FF88;
+}
+.content .player{
+    height: 480px;
+    width: 640px;
+    background-color: #EEEEFE;
+}
+.content .search{
+    text-align: center;
+    background-color: #CECEFF;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.content .search input{
+    text-align: center;
+    width: 200px;
+}
+.content .results{}
+.content .results .result{
+    cursor: pointer;
+    width: 300px;
+}
+.content .results .result .description{
+    width: 150px;
+    word-break: break-all;
+}
+.content .results .result:hover{
+    background-color: #00FF88;
+}
+.content .clipList .clip{
+    text-align: center;
+    cursor: pointer;
+    width: 100px;
+}
+.content .clipList .clip:hover{
+    background-color: #00FF88;
+}
